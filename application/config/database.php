@@ -77,7 +77,7 @@ if (ENVIRONMENT == 'production') {
     $db['intranet_aicapitals'] = array(
         'dsn'	=> 'pgsql:host=db-master-aicapitals-do-user-3147676-0.a.db.ondigitalocean.com;port=25061;dbname=CARTOLA-POOL;sslmode=require',
         'username' => 'cartola',
-        'password' => 'ea6vl2a5izv4izq8',
+        'password' => 'xxxx',
         'dbdriver' => 'pdo',
         'dbprefix' => '',
         'pconnect' => FALSE,
@@ -96,7 +96,7 @@ if (ENVIRONMENT == 'production') {
 
     $db['default'] = array(
         'dsn'	=> '',
-        'hostname' => '138.197.125.199',
+        'hostname' => 'x.x.x.x',
         'username' => 'it_aicapitals',
         'password' => 'ITadminaicapitals.2017',
         'database' => 'webservices_aicapitals',
